@@ -9,4 +9,16 @@ elif(numero<0):
 else:
     print("Igual a 0")
 
-# 2
+# 2.Peça uma nota de 0 a 20 e classifique: reprovado,suficiente , bom ou excelente.
+    nota=float(input(" Digite uma nota de 0-20: "))
+    if(nota>16):
+        print("Excelente")        
+    elif((nota>=13)and (nota<=16)):
+        print("Bom")     
+    elif((nota>=10)and(nota<=12)):
+        print("Suficiente")     
+    else:
+        print("Reprovado")
+
+        
+
