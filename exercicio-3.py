@@ -15,3 +15,10 @@ for k in range(1,100):
 
 print(f"Soma:{soma}")
 
+# 3. Peça senhas ao usuário repetidamente com um while até ele digitar a correta 
+senha = 1234
+valor=int(input("Digite a senha: "))
+while(valor!=senha):
+   valor=int(input("Digite a senha: "))
+
+print("Acesso Aprovado!")
