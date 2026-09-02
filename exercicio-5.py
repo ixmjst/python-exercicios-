@@ -3,8 +3,9 @@
 lista_compras=["arroz", "feijao","batata","banana","sapado","bolsa"]
 lista_compras.append("Manteiga")
 lista_compras.remove("arroz")
+#2. Percorra a lista com for e enumere cada item da lista
 print("Lista Final:")
-for compra in lista_compras:
-    print(compra)
+for indice, compra in enumerate(lista_compras,1):
+    print(indice,compra)
 
 print(f"Tamanho da Lista:{len(lista_compras)}")
