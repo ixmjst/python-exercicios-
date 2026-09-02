@@ -17,3 +17,4 @@ texto_exemplo=f"""
 """
 #junta tudo novamente usando apenas um espaço.
 print(" ".join(texto_exemplo.replace("\n"," ").split()))
+
