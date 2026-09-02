@@ -12,3 +12,13 @@ for value in lista_colaboradores:
     print(value["nome"])
 
 #3. Conte a frequência de cada palavra numa frase, guardando o resultado num dicionário.
+frase = "Gosto muito do teu jeito de ser amigo meu, meu melhor amigo."
+palavra_exemplo="meu"
+cont=0
+for palavra in frase.replace(",","").split():
+    if palavra_exemplo== palavra:
+        cont+=1
+vezes_de_ocorrencia={f"{palavra_exemplo}":cont}
+
+for key, value in vezes_de_ocorrencia.items():
+    print(key,":",value)
